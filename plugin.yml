@@ -1,0 +1,15 @@
+name: StaffList
+main: com.gmail.lopezitospriter.stafflist.main
+version: 1.0
+author: Lopezito
+description: List of Staff
+website: www.xminecraft.net
+commands:
+   staff:
+     description: List of Staff.
+     usage: /staff
+     permission: stafflist.use
+permissions:
+    stafflist.use:
+        description: Access to command staff
+        default: true
