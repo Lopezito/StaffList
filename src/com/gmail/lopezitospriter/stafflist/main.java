@@ -106,7 +106,7 @@ public class main extends JavaPlugin {
     	    String prefix = getConfig().getString("prefix" + i);
     	    String color = getConfig().getString("color" + i).toUpperCase();
             if (player == null) { 
-    	    	sender.sendMessage(ChatColor.RED + "[" + prefix + "]" + name + " - Offline");
+    	    	sender.sendMessage(ChatColor.valueOf(color) + "[" + prefix + "]" + name + ChatColor.RED + " - Offline");
             }
             else {
         	    sender.sendMessage(ChatColor.valueOf(color) + "[" + prefix + "]" + name + ChatColor.GREEN +" - Online");
